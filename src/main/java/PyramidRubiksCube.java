@@ -34,18 +34,25 @@ public class PyramidRubiksCube {
         }
     }
 
+    private int[] faces() {
+        return new int[0];
+    }
+
 
     private void InitializeEdges() {
 
         int[][] adjacentFace = {
 
-        }
+        };
 
-        int[][] edgeIndices
+        int[][] edgeIndices = {
+
+        };
     }
 
     public boolean validateCube(){
 
+        return false;
     }
 
 }
