@@ -103,6 +103,6 @@ public class PyramidRubiksCube {
         PyramidRubiksCube cube = new PyramidRubiksCube();
         cube.printCube();
 
-        System.out.println("Is cube valid? " + cube.validateCube());
+        System.out.println("Was cube created correctly? " + cube.validateCube());
     }
 }

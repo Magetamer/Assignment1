@@ -22,6 +22,6 @@ public class ValidParenthesesTest {
         assertFalse(vp.isValid("({[]})[)]"));
         assertFalse(vp.isValid("{[("));
 
-        assertFalse(vp.isValid(""));
+        assertTrue(vp.isValid(""));
     }
 }
